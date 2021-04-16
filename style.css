@@ -1,0 +1,57 @@
+
+
+.maingrid {
+display: grid; /* inline. */
+grid-template-columns: 350px 350px 350px  ; /* Especifica el tamaño de las columnas y cuántas columnas en un diseño */
+grid-template-rows: 140px ; /* Especifica el tamaño de las filas en un diseño de cuadrícula. */
+grid-gap: 120px 10px;   /* grid-column-gap o grid-row-gap  por ajustar el tamaño del espacio */
+text-align: center;
+
+
+
+}
+
+h1{
+    text-align: left;
+    font-size: 30px;
+}
+
+.grid-item{
+    background-color: rgb(100, 131, 70);
+        border: 2px solid black;
+        width: 350px;
+        height: 250px;
+        margin: 0px;
+        margin-right: 37px;
+       
+        
+        
+
+      }
+      
+      #item1{
+     font-style: italic;
+     font-weight: bold;
+     align-content: stretch;
+     
+    
+      }
+
+      #item2{
+         text-align: center; 
+         align-content: stretch;
+
+      }
+      #img1{
+    width: 100px;
+    height: 100px;
+  
+      }
+      
+
+      .item11{
+         /* esta para campiar el sito de la caja */
+        grid-column-start: 1;  
+        grid-row-end: 2;
+      }
+
